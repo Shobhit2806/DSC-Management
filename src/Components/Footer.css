@@ -1,0 +1,202 @@
+.Footer{
+    
+    
+}
+#footer{
+    background-color: white;
+    box-shadow: 0px 0px 3px 0px blue;
+    
+}
+.MainDsc{
+    color: black ;
+}
+.lastcont{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+.footerhead{
+    color: blue;
+    font-size: 25px;
+    
+}
+.img_play{
+    width: 200px;
+    
+    
+    
+    
+    
+}
+.playimage{
+    
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: -140px;
+    margin-left: 650px;
+    
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -140px;
+        margin-left: 500px;
+        
+    }
+    
+}    
+
+@media only screen and (max-width: 800px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -130px;
+        margin-left: 250px;
+        
+    }
+    
+}    
+@media only screen and (max-width: 470px) {
+    .playimage{
+        
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -80px;
+        margin-left: 250px;
+        
+    }
+    .img_play{
+        width: 100px;
+        
+        
+        
+        
+        
+    }
+    
+}    
+
+
+
+
+@media only screen and (max-width: 370px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -80px;
+        margin-left: 220px;
+        
+    }
+    
+}    
+
+
+@media only screen and (max-width: 335px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -80px;
+        margin-left: 160px;
+        
+    }
+    
+}    
+
+@media only screen and (max-width: 275px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -80px;
+        margin-left: 120px;
+        
+    }
+    
+}    
+
+@media only screen and (max-width: 235px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -30px;
+        margin-left: 50px;
+        
+    }
+    .img_play{
+        width: 80px;
+        
+        
+        
+        
+        
+    }
+  
+}    
+
+
+@media only screen and (max-width: 160px) {
+    .playimage{
+        
+        position: absolute;
+        margin-bottom: 0px;
+        margin-top: -33px;
+        margin-left: 70px;
+        
+    }
+    .img_play{
+        width: 80px;
+        
+        
+        
+        
+        
+    }
+
+  
+}    
+
+
+.socialcontainer{
+    
+    margin-right: 400px;
+    padding: 10px;
+}
+@media only screen and (max-width: 1200px) {
+    .socialcontainer {
+        margin-left: 200px;
+        padding: 10px;
+    }
+  }
+
+
+
+@media only screen and (max-width: 900px) {
+    .socialcontainer {
+        margin-left: 330px;
+        padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .socialcontainer {
+        margin-left: 200px;
+        padding: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 200px) {
+    .socialcontainer {
+        margin-left: 230px;
+        padding: 10px;
+    }
+  }
+

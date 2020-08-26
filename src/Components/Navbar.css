@@ -1,0 +1,15 @@
+.mainnav{
+    
+    background-color: white;
+}
+.title{
+     color:#919191;
+     white-space:nowrap;
+     float: left;
+     width: 11%;
+
+   
+}
+.logo{
+    width: 30px;
+}
