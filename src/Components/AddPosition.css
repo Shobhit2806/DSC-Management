@@ -1,0 +1,51 @@
+.forms{
+    display: grid;
+    grid-template-columns: 350px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 120px 300px 200px;
+       
+ 
+}
+
+.mainposition{
+  
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #e4e1e1;
+    border-radius: 2px;
+
+ 
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    
+}
+.positiontitle{
+   color: rgb(247, 174, 39);
+}
+.formposition{
+    font-size: 60px;
+}
+
+.mainapplicant{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px #e4e1e1;
+    border-radius: 2px;
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+    
+}
+
+.applicanttitle{
+    
+    color: green;
+    
+}
+
+.applicantformposition{
+    font-size: 60px;
+}
+

@@ -6,13 +6,13 @@ import Footer from './Components/Footer';
 import AddPosition from './Components/AddPosition';
 import AddApplicant from './Components/AddApplicant';
 
+
 function App() {
   return (
     <div className="App">
       <Navbar />
       <AddPosition />
-      <AddApplicant/>
-      <Footer />
+      <Footer /> 
     </div>
   );
 }
