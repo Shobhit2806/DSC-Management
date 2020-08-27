@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer';
 import AddPosition from './Components/AddPosition';
-import AddApplicant from './Components/AddApplicant';
+
 
 
 function App() {
