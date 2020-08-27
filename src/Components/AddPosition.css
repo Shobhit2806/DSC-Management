@@ -1,9 +1,8 @@
 .forms{
     display: grid;
-    /* grid-template-columns: 350px 300px 100px 300px 100px; */
     grid-template-columns: 10% 30% 20% 30% 10%;
-    grid-template-rows: 120px 300px 200px;
-       
+    grid-template-rows: 100px 370px 100px;
+    
  
 }
 
@@ -18,11 +17,12 @@
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    margin: 0px 0px 0px 0px;
     
     
 }
 .positiontitle{
-   color: rgb(247, 174, 39);
+   color: dodgerblue;
 }
 .formposition{
     font-size: 60px;
@@ -42,7 +42,7 @@
 
 .applicanttitle{
     
-    color: green;
+    color: dodgerblue;
     
 }
 
@@ -50,3 +50,12 @@
     font-size: 60px;
 }
 
+.btnsubmit{
+    font-size: large;
+    border-radius: 4px;
+    color:white;
+    background-color: dodgerblue;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
