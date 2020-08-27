@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import TextField from '@material-ui/core/TextField';
 import './AddPosition.css'
 import AddApplicant from './AddApplicant';
+import illustration from '../assests/undraw_code_typing_7jnv.svg'
 
 
 export default class AddPosition extends Component {
@@ -47,6 +48,9 @@ export default class AddPosition extends Component {
         <br/>
         <button className="btnsubmit" type="submit">Submit</button>
       </form>
+      </div>
+      <div className="ilucontainer">
+        <img className="illustration" src={illustration}/>
       </div>
        <AddApplicant />
   </div>

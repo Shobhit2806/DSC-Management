@@ -59,3 +59,16 @@
     width: 100px;
     height: 30px;
 }
+.illustration{
+    width:280px;
+    height: 575px;
+    
+}
+.ilucontainer{
+    
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    
+}
