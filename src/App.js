@@ -15,7 +15,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-        <Route path='/' exact component={Landing} />
+        <Route path='/DSC-Management' exact component={Landing} />
         <Route path='/search' component={Search} />
         </Switch>
         </Router>
