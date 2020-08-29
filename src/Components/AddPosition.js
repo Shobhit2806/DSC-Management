@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import TextField from '@material-ui/core/TextField';
 import './AddPosition.css'
 import AddApplicant from './AddApplicant';
@@ -11,9 +10,14 @@ export default class AddPosition extends Component {
     super(props);
     
     this.state ={
-      name:'',
-      desc:'',
-      tech:[]
+      position :[
+       {
+        name:'',
+        desc:'',
+        tech:[]
+       } 
+      ]
+      
     }
   }
   changeHandler = e =>{

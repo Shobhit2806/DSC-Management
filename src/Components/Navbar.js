@@ -3,9 +3,10 @@ import { makeStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
-
+import SearchTwoToneIcon from '@material-ui/icons/SearchTwoTone';
 import IconButton from '@material-ui/core/IconButton';
 import MenuIcon from '@material-ui/icons/Menu';
+import { Link } from 'react-router-dom';
 import './Navbar.css'
 import dsclogo from '../assests/dsc.png'
 const useStyles = makeStyles((theme) => ({
@@ -32,7 +33,8 @@ export default function ButtonAppBar() {
             <div className = "title">DSC <b>JIIT128</b></div>
           </Typography>
           <IconButton edge="start" className={classes.menuButton} aria-label="menu">
-            <MenuIcon />
+            
+            {/* <Link to="/search"><SearchTwoToneIcon fontSize="large"/></Link> */}
           </IconButton>
         </Toolbar>
       </AppBar>

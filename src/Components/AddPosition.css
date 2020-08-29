@@ -72,3 +72,33 @@
     grid-row-end: 4;
     
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .illustration{
+        width:180px;
+    height: 675px;
+        
+        
+    }
+    
+}    
+
+@media only screen and (max-width: 850px) {
+    .illustration{
+        width:100px;
+    height: 675px;
+        
+        
+    }
+    
+}    
+@media only screen and (max-width: 450px) {
+    .illustration{
+        width:50px;
+    height: 675px;
+        
+        
+    }
+    
+}    
